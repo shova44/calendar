@@ -1,0 +1,119 @@
+.page{
+    background-color:#E5E7E9;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+}
+.calender{
+    height: 600px;
+    width: 700px; ;
+    
+    margin:auto;
+    background-color:white;
+
+}
+.note{
+    height: 50px;
+    width: 40%;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.month{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color:#5499C7 ;
+    width:100%;
+    padding: 40px 30px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 28px;
+    
+    
+}
+
+.premth{
+    color: black;
+    background-color:#1F618D;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+.premth:hover{
+    background-color:#7FB3D5;
+    transition: all 0.4s;
+}
+
+.nextmth{
+    color: black;
+    background-color: #1F618D;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+
+}
+.nextmth:hover{
+    background-color:#7FB3D5;
+    transition: all 0.4s
+
+}
+
+.weekdays{
+    background-color:#1F618D;
+    color: white;
+    padding:7px 0px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.weekdays div{
+    text-align: center;
+    width:14% ;
+}
+
+.days{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding:10px 0px;
+
+}
+
+.days div{
+    width: 14.2%;
+    margin-bottom: 10px;
+    padding:10px 0px;
+    transition:all 0.4s; 
+    width: 14.2%;
+    text-align: center;
+    color: black;
+}
+.days div:hover{
+    background-color: rgb(189, 170, 170);
+    cursor: pointer;
+
+}
+.today{
+    background-color:#5499C7 ;
+}
+.today div{
+    display: flex;
+}
+.prevdate{
+    color:rosybrown;
+}
+
+
